@@ -1,0 +1,440 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family:'Bai Jamjuree', sans-serif;
+    font-size:18px;
+    color:hsl(210, 10%, 33%);
+    max-width:100%;
+}
+header{
+    background-image:url("bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:45vh;
+    max-width:100%;
+    position:relative;
+}
+.image img{
+    margin:auto;
+    height:130px;
+    width:10%;
+    position:absolute;
+    left:45%;
+    top:40%; 
+}
+.heading h2{
+    text-align:center;
+    font-size:35px;
+}
+.heading p{
+    font-size:15.5px;
+    text-align:center;
+    padding-top:15px;
+    color:hsl(201, 11%, 66%);
+}
+.btn{
+    text-align:center;
+    margin-top:30px;
+}
+.btn1,
+.btn2{
+    padding:10px;
+    margin:10px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size:13px;
+    border:none;
+    width:180px;
+    
+}
+.btn1{
+    background-color:  hsl(171, 66%, 44%);
+    box-shadow:1px 6px 5px  hsla(171, 68%, 42%, 0.815);
+    color:white;
+}
+.btn2{
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow:1px 6px 5px  hsl(233, 97%, 77%);
+    color:white;
+}
+.btn1:hover{
+    opacity:0.8;
+}
+.btn2:hover{
+    opacity:0.8;
+}
+.second{
+    text-align:center;
+    margin-top:100px;
+}
+.second h3{
+    font-size:25px;
+}
+.second p{
+    color:hsl(201, 11%, 66%);
+    font-size:15px;
+    margin-top:20px;
+}
+.third{
+    display:flex;
+    margin-top:70px;
+}
+.sidepic img{
+    width:600px;
+    height:400px;
+    margin-right:100px;
+    margin-left:-30px;
+}
+.sidetext{
+    margin-top:10px;
+}
+.para{
+    margin-top:35px;
+}
+.para p{
+    color:hsl(201, 11%, 66%);
+    margin-top:10px;
+    font-size:15px;
+}
+.fourth{
+    text-align:center;
+    margin-top:100px;
+}
+.fourth p{
+    color:hsl(201, 11%, 66%);
+    margin-top:20px;
+    font-size:15px;
+}
+.phone{
+    text-align:center;
+    margin-top:50px;
+}
+.phone img{
+    width:500px;
+    height:300px;
+}
+.fifth{
+    margin-top:30px;
+    text-align:center;
+}
+.fifth p{
+    color:hsl(201, 11%, 66%);
+    margin-top:15px;
+    font-size:15px;
+}
+.sixth{
+    display:flex;
+    margin-top:50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sixth p{
+    font-size:15px;
+    text-align:center;
+    margin-top:15px;
+    color:hsl(201, 11%, 66%);
+}
+.sixth h4{
+    text-align:center;
+    margin-top:40px;
+}
+.featurescont{
+    text-align:center;
+    margin:20px;
+    padding:30px 0px;
+}
+.seventh{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:50px;
+}
+.eight{
+    margin-top:80px;
+    text-align:center;
+}
+.eight p{
+    color:hsl(201, 11%, 66%);
+    font-size:15px;
+    margin-top:20px;
+}
+footer{
+    background-color:whitesmoke;
+    height:35vh;
+    margin-top:50px;
+}
+footer p{
+    text-align:center;
+    color:hsl(201, 11%, 66%);
+    font-size:12px;
+    margin-top:60px;
+}
+footer p a{
+    color:hsl(201, 11%, 66%);
+    text-decoration:none;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    font-size:16px;
+    padding-top:30px;
+}
+.footer-logo img{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+    
+}
+.footer-features{
+    margin-top:30px;
+    margin-right:-50px;
+}
+.footer-features a{
+    display:block;
+    padding:10px;
+    color:hsl(201, 11%, 66%);
+}
+.footer-features a{
+    text-decoration:none;
+}
+.footer-features-ex a{
+    color:hsl(201, 11%, 66%);
+    text-decoration:none;
+}
+.footer-features-ex{
+    margin-bottom:10px;
+}
+.social a{
+    color:hsl(210, 10%, 33%);
+    padding-right:15px;
+}
+/* --------------------------------------540PX--------------------------------------------------- */
+@media all and (max-width:540px){
+    .container-body{
+        max-width:100%;
+        overflow:hidden;
+    }
+    header{
+        background-image:url("bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        height:80vh;
+        width:100%;
+        position:relative;
+    }
+    .image img{
+        height:130px;
+        width:25%;
+        position:absolute; 
+        top:250px;
+        left:200px;
+    }
+    .heading h2{
+        text-align:center;
+        font-size:40px;
+        padding: 0px 40px;
+    }
+    .heading p{
+        font-size:22px;
+        text-align:center;
+        padding:0px 47.5px;
+        padding-top:25px;
+        margin:0px 10px;
+    }
+    .btn{
+        display:block;
+        text-align:center;
+        margin-top:70px;
+        margin-left:120px;
+    }
+    .btn1,
+    .btn2{
+        padding:20px;
+        margin:30px;
+        border-radius: 35px;
+        cursor:pointer;
+        font-size:15px;
+        border:none;
+        width:250px;
+        display:block; 
+    }
+    .second{
+        text-align:center;
+        margin-top:120px;
+    }
+    .second h3{
+        font-size:35px;
+        padding:0px 60px;
+    }
+    .second p{
+        color:hsl(201, 11%, 66%);
+        font-size:20px;
+        margin-top:40px;
+        padding:0px 65px;
+    }
+    .third{
+        display:block;
+        text-align:center;
+    }
+    .third h4{
+        font-size:25px;
+    }
+    .third p{
+        font-size:20px;
+    }
+    .sidepic img{
+        width:450px;
+        height:330px;
+        margin-left:40px;
+    }
+    .fourth h3{
+        font-size:35px;
+        padding:0px 50px;
+    }
+    .fourth p{
+        font-size:20px;
+        padding:0px 65px;
+    }
+    .phone{
+        text-align:center;
+        margin-top:70px;
+    }
+    .phone img{
+        width:500px;
+        height:300px;
+    }
+    .fifth h3{
+        font-size:35px;
+        padding:0px 60px;
+    }
+    .fifth p{
+        font-size:20px;
+        padding:0px 50px;
+        margin-top:20px;
+    }
+    .sixth{
+        display:block;
+        margin-left:10px;
+    }
+    .featurescont img{
+        width:70px;
+        height:70px;
+    }
+    .featurescont h4{
+        font-size:25px;
+    }
+    .featurescont p{
+        font-size:20px;
+        padding:0px 5px;
+    }
+    .seventh{
+        display:block;
+        margin-top:50px;
+        text-align:center;
+    }
+    .class{
+        margin-top:80px;
+        margin-left:10px;
+    }
+    .class img{
+        width: 200px;
+        height:60px;
+    }
+    .eight{
+        margin:0px 10px;
+        margin-top:100px;
+    }
+    .eight h3{
+        font-size:35px;
+        padding:0px 60px;
+    }
+    .eight p{
+        font-size:20px;
+        padding:0px 46px;
+        margin-top:50px;
+    }
+    footer{
+        height:110vh;
+    }
+    .container{
+        display:block;
+        text-align:center;
+        font-size:23px;
+    }
+    .footer-features{
+        text-align: center;
+        margin-right:5px;
+        margin-top:0px;
+    }
+    .footer-features a{
+        padding:10px;
+        padding-top:30px;
+    }
+    footer p{
+        margin-top:45px;
+    }
+    .footer-features-ex{
+        padding-top:30px;
+    }
+    .social{
+        margin-top:50px;
+    }
+    .social a{
+        padding:40px;
+    }
+    .social a i{
+        font-size:30px;
+    }
+}
+/* ------------------------------------------------720PX-------------------------------------------- */
+@media all and (width:720px) {
+    .image img{
+        height:120px;
+        width:18%;
+        position:absolute; 
+        top:100px;
+        left:300px;
+    }
+    .sidepic img{
+        width:320px;
+        height:330px;
+        margin-left:-10px;
+        margin-right:50px;
+    }
+    .sidetext{
+        margin-top:-10px;
+    }
+    .para p{
+        color:hsl(201, 11%, 66%);
+        margin-top:10px;
+        font-size:15px;
+    }
+    .class img{
+        width: 100px;
+        height:60px;
+    }
+    .footer-logo img{
+        width:80;
+        height:80px;
+    }
+    .footer-features{
+        margin-right:10px;
+    }
+    .social{
+        margin-top:-5px;
+    }
+}
+/* -----------------------------------------------960PX------------------------------------------------ */
+@media all and (width:960px) {
+    .image img{
+        height:160px;
+        width:16%;
+        position:absolute; 
+        top:100px;
+        left:400px;
+    }
+}
